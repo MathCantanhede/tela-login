@@ -1,0 +1,68 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.616);
+}
+
+main{
+    background-color: white;
+    width: 310px;
+    height: 550px;
+    text-align: center;
+    transform: translate(-150px, 100px);
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#eu>img{
+    width: 100px;
+}
+section#login{
+    padding-top: 100px;
+    position: relative;
+    display: block;
+    background: url(./imagem/pexels-vinícius-estevão-2896034.jpg) no-repeat left center;
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+div.n{
+    background: rgba(0, 0, 0, 0.349);
+    width: 40vw;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    
+}
+div.e{
+    background: rgba(0, 0, 0, 0.349);
+    width: 40vw;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: auto;
+}
+div.s{
+    background: rgba(0, 0, 0, 0.349);
+    width: 40vw;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+div.last{
+    padding-top: 10px;
+}

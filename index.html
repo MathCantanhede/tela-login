@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo/medi-quey.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>tela de login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="foto">
+
+            </div>
+            <div id="formulário">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div id="eu">
+                        <img src="imagem/profile-png-5.png" alt="">
+                    </div>
+                    <br>
+                    <div class="n">
+                        <span class="material-icons">
+                            perm_identity
+                            </span>
+                         <input type="text" name="name" id="iname" required placeholder="Nome completo" autocomplete="name">
+                    </div>
+                    <div class="e">
+                        <span class="material-icons"> mail_outline </span>
+                        <input type="email" name="email" id="iemail" required placeholder="email@hotmail.com" autocomplete="email">
+                    </div>
+                    <div class="s">
+                        <span class="material-icons">
+                            https
+                            </span>
+                        <input type="password" name="senha" id="isenha" required placeholder="Senha" minlength="10" maxlength="20">
+                    </div>
+                     <div class="last">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                     </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
