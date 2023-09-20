@@ -32,6 +32,9 @@ input{
 input#isenha{
     text-align: center;
 }
+input#iname{
+    text-align: center;
+}
 section#login{
     padding-top: 100px;
     position: relative;
