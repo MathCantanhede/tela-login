@@ -26,6 +26,12 @@ main{
 div#eu>img{
     width: 100px;
 }
+input{
+    width: 120px;
+}
+input#isenha{
+    text-align: center;
+}
 section#login{
     padding-top: 100px;
     position: relative;
